@@ -1,5 +1,6 @@
 a {
 	font-size: 1.5vw;
+	color: green;
 }
 body {
 	background-attachment: fixed;
@@ -9,6 +10,7 @@ body {
 	background-size: cover;
 	color: green;
 	font-family: "Courier New";
+	overflow-x: hidden;
 }
 #master-container {
 	background-color: rgba(0, 0, 0, 0.85);
@@ -21,7 +23,14 @@ body {
 .nav-bar-list-item {
 	color: green;
 }
+.dropdown-menu {
+	background-color: black;
+}
+.dropdown-button {
+	font-size: 2vw;
+}
 .hero-element {
+	font-size: 3vw;
 	height: 85vh;
 	padding: 6.25%;
 	text-align: center;
@@ -55,6 +64,9 @@ body {
 }
 .education-item-description {
 	font-size: 1.8vw;
+}
+.education-maps {
+	color: green;
 }
 
 #training {
@@ -109,12 +121,37 @@ body {
 .project-item-description {
 	font-size: 2vw;
 }
-
-.carousel-item {
-	font-size: 5vw;
-	padding: 5%;
+.glyphicon {
+	color:green;
 }
 
+#open-source-contri {
+	background-color: rgba(0, 0, 0, .85);
+	padding: 17%;
+}
+.carousel-item {
+	text-align: center;
+	font-size: 2vw;
+}
+.carousel-item-logo {
+	text-align: center;
+	font-size: 6vw;
+}
+
+.nomination-page {
+	background-color: rgba(0, 0, 0, .85);
+}
+.btn {
+	background-color: rgba(0, 0, 0, .85);
+	border-color: green;
+	color: green;
+}
+.nomination-modal-button {
+	background-color: black; 
+	border-color: green;
+	color: green;
+	font-size: 1vw;
+}
 .footer {
 	background-color: rgba(0, 0, 0, .85);
 }
